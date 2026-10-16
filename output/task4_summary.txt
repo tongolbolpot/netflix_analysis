@@ -1,0 +1,27 @@
+TASK 4 - TREND ANALYSIS BY RELEASE YEAR
+========================================
+Release years covered: 1925 - 2021
+Peak release year: 2018 with 1,144 titles
+Titles released in 2010: 192  ->  in 2018: 1,144
+Peak year for titles ADDED to Netflix: 2019 (2,013 titles)
+
+Titles by decade of release:
+1920s       1
+1940s      15
+1950s      11
+1960s      25
+1970s      70
+1980s     129
+1990s     274
+2000s     807
+2010s    5909
+2020s    1545
+
+INTERPRETATION
+- 71% of the catalog was released in 2015 or later: this is a recent-content library.
+- Releases grew strongly through the 2010s and peaked in 2018.
+- After the peak: 2019: 1,029, 2020: 953, 2021: 592.
+  The latest year (2021) may be incomplete, since the data is a snapshot, so treat the drop with caution.
+- Typical lag between release and arrival on Netflix: median 1 year(s);
+  55% of titles were added within a year of release.
+- Older titles (before 2000) are a small back-catalog: 525 titles.

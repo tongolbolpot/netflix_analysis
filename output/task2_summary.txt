@@ -1,0 +1,14 @@
+TASK 2 - CONTENT TYPE ANALYSIS
+========================================
+Total titles:   8,786
+Movies:         6,123 (69.7%)
+TV Shows:       2,663 (30.3%)
+Movie : TV Show ratio = 2.3 : 1
+
+Average movie length:        100 minutes (median 98)
+Average TV show length:      1.8 seasons (median 1)
+TV shows with a single season: 67%
+
+KEY FINDINGS
+- Movies make up about 70% of the catalog, roughly 2.3 movies for every TV show.
+- Most TV shows in the catalog are short-run: 67% have only one season.

@@ -1,0 +1,32 @@
+NETFLIX DATA CLEANING LOG
+========================================
+Step 1: loaded 8,790 rows x 10 columns from Dataset.csv
+
+Step 2: missing values before filling
+  show_id            0
+  type               0
+  title              0
+  director           0
+  country            0
+  date_added         0
+  release_year       0
+  rating             0
+  duration           0
+  listed_in          0
+  dropped 0 rows missing an ID, title, type or release year
+  filled missing director/country/rating/duration/genre with 'Not Given'
+
+Step 3: removed 0 exact duplicate rows
+  removed 0 rows with a repeated show_id
+  removed 4 rows with the same title/type/year/director
+
+Step 4: standardized type (Movie / TV Show), rating (upper-case, UR -> NR) and country names
+  added rating_group column: Kids / Older Kids / Teens / Adults / Not Rated
+  parsed date_added (0 unparseable) and split duration into value + unit
+
+Step 5: exported 8,786 clean rows to data/cleaned_netflix.csv
+
+Top values after cleaning:
+  type:    {'Movie': 6123, 'TV Show': 2663}
+  rating:  {'TV-MA': 3204, 'TV-14': 2155, 'TV-PG': 861, 'R': 798, 'PG-13': 490, 'TV-Y7': 333, 'TV-Y': 306, 'PG': 287, 'TV-G': 220, 'NR': 82, 'G': 41, 'TV-Y7-FV': 6, 'NC-17': 3}
+  country: {'United States': 3240, 'India': 1056, 'United Kingdom': 638, 'Pakistan': 420, 'Not Given': 287}

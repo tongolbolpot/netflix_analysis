@@ -1,0 +1,27 @@
+TASK 3 - COUNTRY-WISE ANALYSIS
+========================================
+Countries represented: 85
+Titles with country listed: 8,499; country not given: 287 (3.3%)
+
+TOP 10 RANKING
+                titles  share_%
+country                        
+United States     3240     38.1
+India             1056     12.4
+United Kingdom     638      7.5
+Pakistan           420      4.9
+Canada             271      3.2
+Japan              259      3.0
+South Korea        214      2.5
+France             213      2.5
+Spain              182      2.1
+Mexico             138      1.6
+
+BUSINESS INSIGHTS
+- United States leads with 3,240 titles, 38% of all country credits.
+- The top 3 (United States, India, United Kingdom) account for 58% of the catalog,
+  so content supply is concentrated in a few markets.
+- Among the top 10, Pakistan has the highest TV Show share (83%) and
+  India the lowest (8%).
+- 75 further countries share the remaining 22% of titles,
+  a long tail of smaller markets.

@@ -1,0 +1,18 @@
+TASK 5 - CONTENT RATING & GENRE ANALYSIS
+========================================
+Most common ratings: TV-MA (3,204), TV-14 (2,155), TV-PG (861)
+Most common genres:  International Movies (2,751), Dramas (2,423), Comedies (1,673), International TV Shows (1,348), Documentaries (869)
+
+Audience group share by type (%):
+rating_group  Kids  Older Kids  Teens  Adults  Not Rated
+type                                                    
+Movie          7.2        13.5   31.3    46.7        1.3
+TV Show       17.4        12.1   27.4    43.0        0.2
+
+AUDIENCE INSIGHTS
+- 76% of titles are rated for Teens or Adults; Kids content is only
+  10% of the catalog.
+- TV-MA is the single biggest rating (36% of titles).
+- Movies are 47% Adult-rated versus 43% for TV Shows;
+  TV Shows have a larger Kids share (17% vs 7% for movies).
+- Genre labels overlap, so one title counts toward each of its genres (42 distinct genres in total).
